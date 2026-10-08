@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Cahier de français</title>
+<meta name="description" content="Личная тетрадь для подготовки к DELF B2: слова с интервальным повторением, грамматика, аудирование, чтение, письмо и речь — каждый день.">
+<meta name="theme-color" content="#F6F8FD" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#11152B" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Cahier">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <aside class="side" aria-label="Навигация"></aside>
+  <div class="main">
+    <header class="topbar"></header>
+    <main id="view" tabindex="-1"></main>
+  </div>
+  <nav class="bottom" aria-label="Навигация"></nav>
+</div>
+<noscript><p style="padding:24px">Для работы нужен JavaScript.</p></noscript>
+
+<!-- данные -->
+<script src="js/data/vocab.js"></script>
+<script src="js/data/phrases.js"></script>
+<script src="js/data/grammar_a.js"></script>
+<script src="js/data/grammar_b.js"></script>
+<script src="js/data/dictation.js"></script>
+<script src="js/data/listening.js"></script>
+<script src="js/data/reading.js"></script>
+<script src="js/data/prompts.js"></script>
+<script src="js/data/topics.js"></script>
+<script src="js/data/wotd.js"></script>
+<script src="js/data/resources.js"></script>
+<script src="js/data/ext.js"></script>
+<!-- ядро -->
+<script src="js/util.js"></script>
+<script src="js/store.js"></script>
+<script src="js/srs.js"></script>
+<script src="js/plan.js"></script>
+<script src="js/score.js"></script>
+<script src="js/pen.js"></script>
+<script src="js/app.js"></script>
+<!-- страницы -->
+<script src="js/pages/shared.js"></script>
+<script src="js/pages/today.js"></script>
+<script src="js/pages/review.js"></script>
+<script src="js/pages/words.js"></script>
+<script src="js/pages/practice.js"></script>
+<script src="js/pages/grammar.js"></script>
+<script src="js/pages/phrases.js"></script>
+<script src="js/pages/dictee.js"></script>
+<script src="js/pages/listen.js"></script>
+<script src="js/pages/read.js"></script>
+<script src="js/pages/write.js"></script>
+<script src="js/pages/speak.js"></script>
+<script src="js/pages/exam.js"></script>
+<script src="js/pages/progress.js"></script>
+<script src="js/pages/more.js"></script>
+<script>App.boot();</script>
+</body>
+</html>

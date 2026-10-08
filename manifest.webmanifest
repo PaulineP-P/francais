@@ -1,0 +1,16 @@
+{
+  "name": "Cahier de français — DELF B2",
+  "short_name": "Cahier",
+  "description": "Личная тетрадь для ежедневной подготовки к DELF B2",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F6F8FD",
+  "theme_color": "#F6F8FD",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
